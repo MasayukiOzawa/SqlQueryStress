@@ -117,7 +117,7 @@ namespace SQLQueryStress
             NumIterations = 1;
             ParamMappings = new Dictionary<string, string>();
             ConnectionTimeout = 15;
-            CommandTimeout = 0;
+            CommandTimeout = 30;
             EnableConnectionPooling = true;
             CollectIoStats = true;
             CollectTimeStats = true;
